@@ -1,0 +1,20 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" 
+    android:orientation="vertical" >
+    
+    <com.sparkythefish.drawing.GameBoard
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+ 		android:id="@+id/the_canvas"/>
+    
+    <Button
+        android:id="@+id/the_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:enabled="false"
+        android:gravity="center"
+        android:text="Reset" />
+
+</RelativeLayout>
